@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="weather_icon">Weather Icon</string>
+    <string name="humidity">Влажность</string>
+    <string name="wind">Ветер</string>
+    <string name="real_feel">Ощущается</string>
+    <string name="other_locations_text">Другая локация</string>
+    <string name="current_location_text">Текущее местоположение</string>
+    <string name="search_another_city_text">Найти другой город</string>
+    <string name="search">Найти</string>
+
+</resources>

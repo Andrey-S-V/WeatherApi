@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky"
+    tools:context=".CitySearch">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/id_cityEdit"
+        android:text="@string/search_another_city_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size40"/>
+
+    <EditText
+        android:id="@+id/id_cityEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/horizontal_margin_24"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/city"
+        android:fontFamily="@font/opensans"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size20"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/id_citySearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/horizontal_margin_24"
+        android:background="@drawable/bg_button_blue_highlight"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size20"
+        android:textAllCaps="false"
+        android:layout_below="@id/id_cityEdit"
+        android:text="@string/search" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/city2"/>
+</RelativeLayout>

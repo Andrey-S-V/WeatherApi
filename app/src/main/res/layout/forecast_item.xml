@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/backgroundforecast"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/id_forecastDay"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/opensans"
+        android:paddingLeft="40dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/id_forecastIcon"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/id_forecastTemp"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
